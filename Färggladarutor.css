@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  grid-template-columns: 50%, 50%;
+}
+.menu {
+  background-color: red;
+  width: 50%;
+  height: 50%;
+  padding: 12.5%;
+  float: left;
+}
+.main {
+  background-color: darkblue;
+  width: 50%;
+  padding: 12.5%;
+  float: left;
+}
+.nav {
+  background-color: green;
+  width: 50%;
+  padding: 12.5%;
+  float: left;
+}
+.section {
+  background-color: yellow;
+  width: 50%;
+  padding: 12.5%;
+  float: left;
+}
+@media screen and (mini-width:300px){
+
+}
