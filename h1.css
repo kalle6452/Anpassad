@@ -1,0 +1,9 @@
+h1 {
+  color: orange;
+  text-align: center;
+  font-size: 10vw;
+}
+
+@media screen and (mini-width:300px){
+
+  }
