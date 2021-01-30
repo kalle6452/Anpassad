@@ -1,32 +1,34 @@
-* {
-  box-sizing: border-box;
-  grid-template-columns: 50%, 50%;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.menu {
+.red {
   background-color: red;
-  width: 50%;
-  height: 50%;
-  padding: 12.5%;
-  float: left;
+  width: 50vw;
+  height: 50vh;
+float: left;
 }
-.main {
+.darkblue {
   background-color: darkblue;
-  width: 50%;
-  padding: 12.5%;
-  float: left;
+    width: 50vw;
+  height: 50vh;
+float: right;
 }
-.nav {
+.green {
   background-color: green;
-  width: 50%;
-  padding: 12.5%;
-  float: left;
+  width: 50vw;
+  height: 50vh;
+float: left;
 }
-.section {
+.yellow {
   background-color: yellow;
-  width: 50%;
-  padding: 12.5%;
-  float: left;
+  width: 50vw;
+  height: 50vh;
+float: right;
 }
-@media screen and (mini-width:300px){
-
+.orange {
+  background-color: orange;
+  width: 50vw;
+  height: 50vh;
+float: left;
 }
